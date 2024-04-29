@@ -1,0 +1,19 @@
+prizePool:  #奖池设定
+  - free:
+      pay: 0  #奖池价格
+      probability: 0.1  #奖品概率 0 - 1 之间数字越大概率越大
+      prizes:  #奖品列表
+        - 1
+        - 2
+        - 3
+      consolation-prize: #安慰奖
+        - 1
+  - vip:
+      pay: 100  #奖池价格
+      probability: 0.1  #奖品概率 0 - 1 之间数字越大概率越大
+      prizes:  #奖品列表
+        - 1
+        - 2
+        - 3
+      consolation-prize: #安慰奖
+        - 1

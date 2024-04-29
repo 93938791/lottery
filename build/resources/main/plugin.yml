@@ -1,0 +1,17 @@
+#插件名称
+name: lottery
+#插件版本
+version: '1.0.0'
+#插件主类
+main: icu.zzzii.Lottery
+#api版本
+api-version: '1.20'
+#插件作者
+author: zzzii
+#插件日志前缀
+prefix: lottery
+
+commands:
+  lottery:
+    description: lottery插件
+    usage: /<command> <reload> | <admin> <info>

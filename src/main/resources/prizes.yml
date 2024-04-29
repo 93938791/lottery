@@ -1,0 +1,50 @@
+prizes:   # 奖品配置文件
+  - 1:
+      type: ALL  #奖品类型 ITEM 为物品 COMMAND 为命令 ALL 为物品和命令
+      material: DIAMOND  #奖品展示内容
+      displayName: "Shiny Diamond"  #奖品展示名称
+      lore:   #奖品展示描述
+        - "A very shiny diamond"
+      enchanted: true  #是否有发光效果
+      rarity: 1  #奖品稀有度 0.1 - 1 之间数字越小越稀有
+      probability: 0.1  #奖品概率 0 - 1 之间数字越大概率越大
+      commands:
+        - "give %player% minecraft:diamond 1"  #奖品内容
+        - "tell %player% You got a diamond!"  #奖品内容
+      items:
+        - 1:
+            id: "minecraft:diamond"  #奖品内容
+            amount: 1  #奖品数量
+            display: "Shiny Diamond"  #奖品名称
+            lore: #奖品描述
+              - "A very shiny diamond"
+
+  - 2:
+      type: COMMAND  #奖品类型 ITEM 为物品 COMMAND 为命令 ALL 为物品和命令
+      displayName: "Shiny Diamond"  #奖品名称
+      lore: #奖品描述
+        - "A very shiny diamond"
+      enchanted: true  #是否有发光效果
+      rarity: 1  #奖品稀有度 0.1 - 1 之间数字越小越稀有
+      probability: 0.1  #奖品概率 0 - 1 之间数字越大概率越大
+      commands:
+        - "give %player% minecraft:diamond 1"  #奖品内容
+        - "tell %player% You got a diamond!"  #奖品内容
+
+  - 3:
+      type: ITEM  #奖品类型 ITEM 为物品 COMMAND 为命令 ALL 为物品和命令
+      material: DIAMOND  #奖品展示内容
+      displayName: "Shiny Diamond"  #奖品展示名称
+      lore: #奖品展示描述
+        - "A very shiny diamond"
+      enchanted: true  #是否有发光效果
+      rarity: 1  #奖品稀有度 0.1 - 1 之间数字越小越稀有
+      probability: 0.1  #奖品概率 0 - 1 之间数字越大概率越大
+      items:
+        - 1:
+            id: "minecraft:diamond"  #奖品内容
+            amount: 1  #奖品数量
+            display: "Shiny Diamond"  #奖品名称
+            lore:  #奖品描述
+              - "A very shiny diamond"
+
